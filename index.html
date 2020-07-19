@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Assembly Style Fire</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="fireplace"></div>
+		<script src="fire.js"></script>
+		<script src="/popup/popup.js"></script>
+		<script>
+			let popup = new Popup({
+				heading: `Assembly Style Fire`,
+				body: `This is a reproduction of the old 'assembly' demo flame effect, just in javascript.
+
+					This was written many years ago, and initially used HTML tables for the grid however I have recently updated it to use the more modern CSS grid, and given it a few more updates and tweaks to increase the speed and bring the javascript up to more modern standards.
+
+					Make sure to move the mouse cursor around to create a spot fire.`,
+				button: `Let's go!`
+			});
+		</script>
+	</body>
+</html>

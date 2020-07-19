@@ -1,0 +1,26 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+
+/* the entire fire container */
+#fireplace {
+	flex-basis: content;
+	display: grid;
+	grid-template-columns: repeat(80, 5px);
+	grid-template-rows: repeat(40, 5px);
+}
+
+
+.ember {
+	background-color: #000;
+	cursor: pointer;
+}
+
+/* palette is not set in here as changing the className modifies the DOM, which makes browsers slow. */
